@@ -1,5 +1,5 @@
 function P_tot = get_cost(robot, V_inf, V_c)
-    % please cite Iuliu Ardelean Thesis
+    % please cite Iuliu Ardelean PhD Thesis
     arguments
         robot % robot struct (output from get_robot function)
         V_inf % true air speed [Vx, Vy, Vz]
