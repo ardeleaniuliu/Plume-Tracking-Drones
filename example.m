@@ -1,5 +1,5 @@
 % Example how to use bits of code
-% If using this functionality, consider citing Iuliu Ardelean PhD Thesis
+% If using this functionality, consider citing Iuliu Ardelean PhD Thesis or https://doi.org/10.2514/1.C037299 as appropriate
 
 %% Scalable Aerial Robot and Power Model
 robot = get_robot("MTOW", 2.5);
