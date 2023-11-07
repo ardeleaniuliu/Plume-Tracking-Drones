@@ -1,5 +1,6 @@
 function [UX, UY, UZ, F, DENSITY] = vanilla_LBM(BOUND, options)
     % code based off various online sources
+    % this code is intended for quick prototyping and demos
     arguments
         BOUND % This is a 2D occupancy matrix
         options.F = nan;
