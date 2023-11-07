@@ -1,8 +1,8 @@
 clear
 global wait_confirm
 
-% use ipconfig in terminal to find your Local IP address if needed
-t2_client = tcpclient("192.168.1.12", 6060);
+% use ipconfig in terminal to find your Local IPv4 address if needed
+t2_client = tcpclient("127.0.0.1", 6060);
 configureCallback(t2_client, "byte", 2, @call_back_client)
 
 cam = webcam;
