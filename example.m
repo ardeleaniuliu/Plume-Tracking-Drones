@@ -30,7 +30,7 @@ power = get_cost(robot, [UX_p UY_p UZ_p], 0)
 
 %% Pollution Modelling
 
-% extrude 2D flow field using repmat
+% extrude 2D flow field using repmat and scale to desired Re number
 velx = repmat(UX, 1, 1, 50)*100;
 vely = repmat(UY, 1, 1, 50)*100;
 velz = repmat(UZ, 1, 1, 50)*100;
