@@ -56,4 +56,12 @@ function robot = get_robot(options)
     robot.g = options.g;
     robot.rho = options.rho;
     
+    power_min = Inf;
+    for vel = 1:0.1:20
+        power = get_cost(robot, [vel 0 0], 0);
+        if power < power_min
+            power_min = power;
+        end
+    end
+    robot.min_power = power_min; 
 end
