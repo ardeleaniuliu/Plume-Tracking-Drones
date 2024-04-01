@@ -11,3 +11,5 @@ The repo includes:
 - get_uc_domain: pollution model that can compute pollution distribution for any given source location in any given windy domain.
 - make_3d_plot_from_domain: for 3D visualisation of any given pollution distribution. 
 - TCP snippets: for MATLAB-MATLAB and MATLAB-UNITY communication.
+- infotaxis_11JUN2023: an implementation of Infotaxis+FbPD (requires the files in the uc_flow folder)
+- make_uc_set_4: should help you make an internal model for use with the infotaxis+FbPD algorithm.
