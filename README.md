@@ -1,7 +1,7 @@
 # Plume-Tracking-Drones
 Repo with bits of code developed during PhD.
 
-If using this code, consider citing https://doi.org/10.2514/1.C037299, as appropriate.
+If using the aerial robots code, consider citing https://doi.org/10.2514/1.C037299, as appropriate.
 
 The repo includes:
 - get_robot: scalable model of rotary-wing electric aerial robots based on https://doi.org/10.2514/1.C037299
